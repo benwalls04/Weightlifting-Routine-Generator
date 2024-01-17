@@ -1,0 +1,105 @@
+.input-grid{
+  display: flex;
+  flex-direction: row;
+  height: 90px;
+  width: 100%;
+}
+.grid-button{
+  height: 100%;
+  width: 100%;
+  border-color: black;
+}
+.middle-grid-button{
+  height: 100%;
+  width: 100%;
+  background-color: #ff5b4f;
+}
+#split-0{
+  background-color:  #ff5b4f;
+}
+.subheader-container{
+  margin-left: 20px;
+  width: 60%;
+}
+.subheader-text{
+  padding-top: 6px;
+  height: 40px;
+  padding-left: 12px;
+  font-size: 30px;
+  text-align: left;
+  margin-bottom: 8px;
+  margin-bottom: 20px;
+}
+.input-slider{
+  width: 100%;
+}
+.muscle-grid-container{
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 2fr 2fr 2fr;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.muscle-grid-column-label{
+  font-size: 20px;
+  width: 20%;
+  display: inline-block;
+  text-align: center;
+  vertical-align: center;
+}
+.muscle-grid-row-label{
+  font-size: 20px;
+  height: 46px;
+  display: inline-block;
+  text-align: Left;
+}
+.subbias-header{
+  padding-top: 16px;
+  height: 40px;
+  padding-left: 12px;
+  font-size: 30px;
+  text-align: left;
+  margin-top: 8px;
+  margin-bottom: 6px;
+}
+.left-slider-tick-label{
+  font-size: 20px;
+  float: left;
+  width: 33.33333%;
+  text-align: left;
+}
+.middle-slider-tick-label{
+  font-size: 20px;
+  float: left;
+  width: 33.33333%;
+  text-align: center;
+}
+.right-slider-tick-label{
+  font-size: 20px;
+  float: right;
+  width: 33.33333%;
+  text-align: right;
+}
+#generateButton{
+  color:  black;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: #ff5b4f;
+  width: 100%;
+  height: 80px;
+}
+
+@media all and (max-width: 600px){
+  .subheader-container{
+    width: 100%;
+  }
+  .subheader-text{
+    font-size: 26px;
+  }
+  .subbias-header{
+    font-size: 26px;
+  }
+  .muscle-grid-column-label, .muscle-grid-row-label{
+    font-size: 14px;
+  }
+}

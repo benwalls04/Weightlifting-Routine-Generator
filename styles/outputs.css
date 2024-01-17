@@ -1,0 +1,71 @@
+.split-container{
+  margin-top: 40px;
+  width: 60%;
+  border-style: solid;
+  border-color: #ff5b4f;
+  border-width: 4px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+.split-title{
+  font-size: 50px;
+  text-align: center;
+}
+.weekday-container{
+  font-size: 30px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+.workouts-container{
+  margin-top: 30px;
+  margin-left: 30px;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 26px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #ff5b4f;
+}
+.sets-grid{
+  margin-top: 10px;
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.image-container{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.sets-grid-header, .sets-grid-element{
+  padding-top: 20%;
+  border-style: solid;
+  border-color: gray;
+  border-width: 2px;
+  text-align: center;
+  padding-bottom: 20%;
+}
+.image{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media all and (max-width: 600px){
+  .split-container{
+    width: 100%;
+  }
+  .split-title{
+    font-size: 50px;
+  }
+  .weekday-container{
+    font-size: 26px;
+  }
+  .workouts-container{
+    font-size: 20px;
+  }
+  .sets-grid-header, .sets-grid-element{
+    font-size: 20px;
+  }
+}
